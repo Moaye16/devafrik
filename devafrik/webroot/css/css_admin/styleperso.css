@@ -1,0 +1,50 @@
+.drag-area{
+    border:2px dashed #ccc;
+    height: 450px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drag-area.drag-area-hover{
+    border:2px solid #ccc;
+}
+
+.drag-area .icon{
+    font-size: 100px;
+    color: #353c4e;
+}
+
+.drag-area header{
+    font-size: 30px;
+    font-weight: 500;
+    color: #353c4e;
+}
+
+.drag-area span{
+    font-size: 25px;
+    font-weight: 500;
+    color: #353c4e;
+    margin: 10px 0 15px 0;
+}
+
+.drag-area #buttonfile{
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 500;
+    border: none;
+    outline: none;
+    background-color: #ccc;
+    color: #353c4e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.drag-area img{
+    width: 100%;
+    height: 100%;
+    object-fit:unset;
+    border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+ href="<?= Router::url("index.php/recrutements/modal/candidat/id:{$recrutement->id}/slug:{$recrutement->slugRecru}"); ?>"
+
+	$(document).ready(function(){
+		var url = "../layout/modal.php";  //Appeler la fenetre modal
+		jQuery('#modellink').click(function(e) {
+		    $('.modal-container').load(url,function(result){
+				$('#myModal').modal({show:true});
+			});
+		});
+	});

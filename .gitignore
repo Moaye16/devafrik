@@ -1,0 +1,10 @@
+# Duplicate nested directory
+devafrik/devafrik/
+
+# OS and Editor files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
